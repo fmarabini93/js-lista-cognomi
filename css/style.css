@@ -34,3 +34,6 @@ p {
 #list ul li {
       padding: 5px 0;
 }
+#list ul li:nth-of-type(even) {
+      text-decoration: line-through;
+}
