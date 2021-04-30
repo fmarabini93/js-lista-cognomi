@@ -22,6 +22,7 @@ p {
 #list {
       width: 600px;
       height: 800px;
+      position: relative;
       padding-top: 200px;
       padding-left: 40px;
       background-image: url(../img/5a2a37e3aa0f05.1167056515127162596966.png);
@@ -36,4 +37,10 @@ p {
 }
 #list ul li:nth-of-type(even) {
       text-decoration: line-through;
+}
+#list img {
+      height: 200px;
+      position: absolute;
+      top: 250px;
+      right: 100px;
 }
